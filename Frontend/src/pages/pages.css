@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@100;200;300;400&display=swap');
+
+/* LOGIN */
+.container
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgb(188, 236, 220);
+}
+
+.container-wrap
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+}
+
+.left-container
+{
+    background-color: rgb(166, 212, 186);
+    /* background: rgb(95, 129, 118); */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.logo
+{
+    width: 30rem;
+    margin: auto;
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+}
+
+.logo-title
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-sub-title
+{
+    text-align: center;
+    color: white;
+}
+
+.right-container
+{
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title
+{
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: rgb(95, 129, 118);
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(94, 94, 94);
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-wrap-first
+{
+    margin-top: 0.5rem;
+}
+
+.input-wrap
+{
+    margin-top: 1rem;
+}
+
+.login-form
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.input-title
+{
+    font-weight: bold;
+    color: darkgrey;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.input-field
+{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.forgot
+{
+    width: 100%;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: right;
+    text-decoration: none;
+    color: gray;
+    transition: all ease 100ms;
+}
+
+.forgot:hover
+{
+    color: rgb(3, 3, 3);
+}
+
+.sign
+{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: rgb(95, 129, 118);
+    color: white;
+    border: 2px solid rgb(95, 129, 118);
+    transition: all ease 250ms;
+    cursor: pointer
+}
+
+.sign:hover{
+    background: transparent;
+    color: rgb(95, 129, 118);
+}
+
+.or{
+    text-align: center;
+    color: gray;
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.google-sign
+{
+    font-weight: bold;
+    color: gray;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0.2rem; 
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer
+}
+
+.google-sign:hover
+{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.icon
+{
+    margin-top: 0.25rem;
+    font-size: 1.5rem;
+}
+
+.register-text
+{
+    margin-top: 1rem;
+    color: gray;
+    text-align: center;
+}
+
+.register{
+    text-decoration: underline;
+    cursor: pointer;
+    color: gray;
+    transition: all ease 100ms;
+}
+
+.register:hover
+{
+    color: rgb(3, 3, 3);
+}
+
+.warning
+{
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    margin: auto;
+    color: darkred;
+    font-weight: 500;
+    text-align: center;
+    background: rgb(215, 138, 138);
+}
+
+

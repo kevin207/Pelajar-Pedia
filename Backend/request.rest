@@ -1,0 +1,29 @@
+### GET ALL USER
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsIm5hbWUiOiJLZXZpbiBUYW51d2lqYXlhIiwiZW1haWwiOiJlbWFpbEBnbWFpbC5jb20iLCJpYXQiOjE2NjMzMzE0NTcsImV4cCI6MTY2MzMzMTQ3N30.ecr4qjjFGyicK3oaxStfLWWeweHa6lt3Bo21-3WdtVA
+
+### REGISTER
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Kevin Tanuwijaya",
+    "email": "email2@gmail.com",
+    "password": "yamahac315",
+    "confirm": "yamahac315"
+}
+
+### LOGIN
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "email@gmail.com",
+    "password": "yamahac315"
+}
+
+### REFRESH TOKEN
+GET http://localhost:5000/token
+
+### LOGOUT 
+DELETE http://localhost:5000/logout
